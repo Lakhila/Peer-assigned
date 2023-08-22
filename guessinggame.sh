@@ -1,4 +1,5 @@
 function guess {
+
 local count=$(ls . | wc -w) 
 local condition=1
 local answ=0
@@ -16,5 +17,7 @@ do
 		echo "wrong! less than that"
 	fi
 done
+
 }
+
 guess
